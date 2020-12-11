@@ -14,13 +14,13 @@ This project analyzes news articles and tweets about K-pop, comparing sentiments
 
 
 Code/
-1. kpop.R: Scrapes data from allkpop.com and exports data to the file kpop.csv.
+1. allkpop.R: Scrapes data from allkpop.com and exports data to the file allkpop.csv.
 2. news.R: Collects data from News API and exports data to the file news.csv.
 3. article_analysis.R: Conducts descriptive analysis of the data from kpop.R and news.R, producing visualizations found in the Results directory.
 4. twitter.R: Collects data from Twitter API and conducts analysis of the data, producing visualizations found in the Results directory
 
 Data/
-1. kpop.csv: Contains scraped data from top articles on allkpop.com.
+1. allkpop.csv: Contains scraped data from top articles on allkpop.com.
 2. news.csv: Contains data from News API. Includes information on all articles containing the term "South Korea" or any variation thereof, from 2020-01-01 to present.
 
 Results/
