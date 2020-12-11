@@ -1,6 +1,6 @@
 # PLSC-31101-Final
 ## Short Description
-This project analyzes news articles and tweets about K-pop, comparing sentiments between K-pop fans and non-K-pop fans towards South Korea. I first compared articles from popular K-pop news website AllKpop.com with articles that mention South Korea from News API. Then, I compared tweets replying to @allkpop with the keywords "South Korea" and "Korea" to more general tweets about South Korea. The analysis visualizes the data through bar graphs of top 5 positive & negative words and word clouds.
+This project analyzes news articles and tweets about K-pop, comparing sentiments between K-pop fans and non-K-pop fans towards South Korea. I first compared articles from popular K-pop news website AllKpop.com to articles that mention South Korea from News API. Then, I compared tweets replying to @allkpop to more general tweets about South Korea. The analysis visualizes the data through word clouds and bar graphs of top 5 positive & negative words.
 
 ## Dependencies
 1. R, 4.0.2
@@ -24,12 +24,12 @@ Data/
 2. news.csv: Contains data from News API. Includes information on all articles containing the term "South Korea" or any variation thereof, from 2020-01-01 to present.
 
 Results/
-1. 01_kpop_sent.png: Graphs the top 5 positive and negative words from AllKpop articles.
-2. 02_kpop_wc.png: Word cloud of AllKpop articles.
+1. 01_akp_sent.png: Graphs the top 5 positive and negative words from AllKpop articles.
+2. 02_akp_wc.png: Word cloud of AllKpop articles.
 3. 03_news_sent.png: Graphs the top 5 positive and negative words from general news articles about South Korea.
 4. 04_news_wc.png: Word cloud of general articles about South Korea.
-5. 05_akp_sent.png: Graphs the top 5 positive and negative words from tweets replying to @allkpop.
-6. 06_akp_wc.png: Word cloud of tweets replying to @allkpop.
+5. 05_kpop_sent.png: Graphs the top 5 positive and negative words from tweets replying to @allkpop.
+6. 06_kpop_wc.png: Word cloud of tweets replying to @allkpop.
 7. 07_gen_sent.png: Graphs the top 5 positive and negative words from tweets containing the term "South Korea."
 8. 08_gen_wc.png: Word cloud of general tweets mentioning South Korea.
 9. 09_means_bar.png: Graphs the mean sentiment score of each dataset.
