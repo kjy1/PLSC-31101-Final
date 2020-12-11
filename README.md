@@ -35,4 +35,4 @@ Results/
 9. 09_means_bar.png: Graphs the mean sentiment score of each dataset.
 
 ## More Information
-Project by Dianne Kim, jiyoonk@uchicago.edu.
+Project by Dianne Kim, kjy@uchicago.edu.
