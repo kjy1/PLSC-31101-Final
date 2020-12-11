@@ -1,6 +1,6 @@
 # PLSC-31101-Final
 ## Short Description
-This project analyzes news articles and tweets about K-pop, comparing sentiments between K-pop fans and non-K-pop fans towards South Korea. I first compared articles from popular K-pop news website AllKpop.com with articles that mention K-pop from News API. Then, I compared tweets replying to @allkpop with the keywords "South Korea" and "Korea" to more general tweets about South Korea. The analysis visualizes the data through bar graphs of top 5 positive & negative words and word clouds.
+This project analyzes news articles and tweets about K-pop, comparing sentiments between K-pop fans and non-K-pop fans towards South Korea. I first compared articles from popular K-pop news website AllKpop.com with articles that mention South Korea from News API. Then, I compared tweets replying to @allkpop with the keywords "South Korea" and "Korea" to more general tweets about South Korea. The analysis visualizes the data through bar graphs of top 5 positive & negative words and word clouds.
 
 ## Dependencies
 1. R, 4.0.2
@@ -21,7 +21,7 @@ Code/
 
 Data/
 1. kpop.csv: Contains scraped data from top articles on allkpop.com.
-2. news.csv: Contains data from News API. Includes information on all articles containing the term "K-pop" or any variation thereof, from 2020-01-01 to present.
+2. news.csv: Contains data from News API. Includes information on all articles containing the term "South Korea" or any variation thereof, from 2020-01-01 to present.
 
 Results/
 1. 01_kpop_sent.png: Graphs the top 5 positive and negative words from AllKpop articles.
